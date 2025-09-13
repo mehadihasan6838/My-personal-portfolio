@@ -1,0 +1,215 @@
+@import "tailwindcss";
+.nav-link {
+  @apply relative hover:text-blue-600 dark:hover:text-blue-400 transition duration-300 after:content-[''] after:absolute after:w-0 after:h-[2px] after:bg-blue-600 dark:after:bg-blue-400 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300;
+   
+}
+
+/* dark */
+body.dark .dark-body{
+    @apply bg-gray-900 text-gray-200;
+}
+body.dark .dark-nav{
+    @apply bg-gray-800;
+} 
+
+body.dark .dark-text{
+    @apply text-blue-400;
+}
+
+body.dark .dark-span{
+   @apply bg-blue-400;
+}
+body.dark .dark-ul{
+    @apply text-white
+}
+
+body.dark .dark-toogle{
+    @apply text-gray-200 hover:bg-gray-600 bg-gray-700
+}
+
+body.dark .dark-hamburger{
+    @apply text-gray-200
+}
+
+body.dark .dark-menu{
+    @apply bg-gray-800;
+}
+
+body.dark .dark-mobile-menu{
+    @apply hover:text-blue-400 text-white
+}
+
+body.dark .dark-hero{
+    @apply bg-gradient-to-r from-gray-700 to-gray-900
+}
+
+body.dark .dark-bio{
+    @apply text-gray-300
+}
+
+body.dark .dark-portfolio{
+    @apply bg-gray-800 text-blue-400 
+}
+
+body.dark .dark-contact{
+ @apply  border-gray-400 text-gray-200 
+}
+
+body.dark .dark-about{
+    @apply bg-gray-800;
+}
+
+body.dark .dark-h2{
+    @apply text-gray-100;
+}
+
+body.dark .dark-about-p{
+    @apply dark:text-gray-300
+}
+body.dark .dark-about-span{
+    @apply text-blue-400
+}
+
+body.dark .dark-status{
+    @apply bg-gray-700
+}
+body.dark .dark-status-p{
+    @apply text-gray-300
+}
+
+body.dark .dark-h3-1{
+    @apply text-blue-400
+}
+body.dark .dark-h3-2{
+    @apply text-green-400
+}
+body.dark .dark-h3-3{
+    @apply text-yellow-400
+}
+body.dark .dark-h3-4{
+    @apply text-purple-400
+}
+
+
+
+body.dark .dark-img-1{
+    @apply bg-purple-500
+}
+body.dark .dark-img-2{
+    @apply bg-green-600
+}
+
+body.dark .dark-skills{
+@apply bg-gray-900
+}
+
+body.dark .dark-skills-h2{
+    @apply text-gray-100
+}
+
+body.dark .dark-html{
+    @apply text-gray-200
+}
+body.dark .dark-html-bg{
+    @apply bg-gray-700
+}
+
+
+body.dark .dark-portfolio{
+    @apply bg-gray-800
+}
+body.dark .dark-portfolio-h2{
+    @apply text-gray-100
+}
+body.dark .dark-card{
+    @apply bg-gray-700
+}
+
+body.dark .dark-card-h3{
+    @apply text-gray-100
+}
+
+body.dark .dark-card-p{
+    @apply text-gray-300 group-hover:text-gray-100
+}
+
+body.dark .dark-card-a{
+    @apply text-blue-400
+}
+
+
+
+body.dark .dark-services{
+    @apply bg-gray-900
+}
+body.dark .dark-services-h2{
+    @apply text-gray-100
+}
+
+body.dark .dark-services-div{
+  @apply bg-gray-800 focus:ring-blue-600
+}
+
+body.dark .dark-services-h3{
+    @apply text-gray-100
+}
+
+body.dark .dark-services-p{
+    @apply text-gray-300 group-hover:text-gray-100
+}
+
+
+
+
+body.dark .dark-contact{
+    @apply bg-gray-900
+}
+body.dark .dark-contact-h2{
+    @apply text-gray-100
+}
+
+body.dark .dark-contact-div{
+    @apply bg-gray-800
+}
+
+body.dark .dark-contact-h3{
+    @apply text-gray-100
+}
+body.dark .dark-contact-p{
+    @apply text-gray-300 mb-6
+}
+
+body.dark .dark-contact-span-1{
+    @apply text-blue-400
+}
+
+body.dark .dark-contact-span-2{
+    @apply text-gray-200
+}
+
+
+
+body.dark .dark-contact-lebel{
+    @apply text-gray-300
+}
+
+body.dark .dark-contact-input{
+ @apply border-gray-600 bg-gray-700 text-gray-200
+}
+body.dark .dark-contact-button{
+    @apply focus:ring-indigo-500
+}
+
+
+body.dark .dark-mobile-toogle{
+    @apply text-blue-900
+}
+
+body.dark .dark-mehadi-text{
+    @apply text-white
+}
+
+body.dark .dark-send-text{
+    @apply text-white
+}
+
