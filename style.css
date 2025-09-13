@@ -64,7 +64,7 @@ body.dark .dark-h2{
 }
 
 body.dark .dark-about-p{
-    @apply dark:text-gray-300
+    @apply text-white
 }
 body.dark .dark-about-span{
     @apply text-blue-400
